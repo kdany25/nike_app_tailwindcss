@@ -1,3 +1,5 @@
+"use client";
+import Image from "next/image";
 import { hamburger } from "../assets/icons";
 import { headerLogo } from "../assets/images";
 import { navLinks } from "../constants";
@@ -7,7 +9,7 @@ const Nav = () => {
     <header className='padding-x py-8 absolute z-10 w-full'>
       <nav className='flex justify-between items-center max-container'>
         <a href='/'>
-          <img
+          <Image
             src={headerLogo}
             alt='logo'
             width={129}
@@ -33,7 +35,7 @@ const Nav = () => {
           <a href='/'>Explore now</a>
         </div>
         <div className='hidden max-lg:block'>
-          <img src={hamburger} alt='hamburger icon' width={25} height={25} />
+          <Image src={hamburger} alt='hamburger icon' width={25} height={25} />
         </div>
       </nav>
     </header>

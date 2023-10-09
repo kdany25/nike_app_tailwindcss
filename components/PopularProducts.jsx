@@ -1,3 +1,4 @@
+"use client";
 import { products } from "../constants";
 import { PopularProductCard } from "../components";
 

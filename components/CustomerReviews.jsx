@@ -1,3 +1,4 @@
+"use client";
 import { ReviewCard } from "../components";
 import { reviews } from "../constants";
 
